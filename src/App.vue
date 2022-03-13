@@ -2,7 +2,7 @@
   <v-app>
     <v-main>
       <h1>My Parent component timeline</h1>
-      <v-timeline direction="horizontal" density="compact" truncate-line="true">
+      <v-timeline direction="horizontal" density="compact" truncate-line="both">
         <v-timeline-item
           v-for="item in items"
           :key="item.id"

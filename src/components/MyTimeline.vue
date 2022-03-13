@@ -1,5 +1,5 @@
 <template>
-    <v-timeline single-side="after" direction="horizontal" density="compact" truncate-line="true">
+    <v-timeline single-side="after" direction="horizontal" density="compact" truncate-line="both">
         <v-timeline-item
             v-for="item in items"
             :key="item.id"
