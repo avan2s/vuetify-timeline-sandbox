@@ -1,10 +1,9 @@
 <template>
-    <h1>My Timeline</h1>
-    <v-timeline single-side="after" direction="horizontal">
+    <v-timeline single-side="after" direction="horizontal" density="compact" truncate-line="true">
         <v-timeline-item
             v-for="item in items"
             :key="item.id"
-            :color="item.color"
+            :dot-color="item.color"
             size="small"
             fill-dot
         >Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.</v-timeline-item>
